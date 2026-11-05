@@ -92,7 +92,7 @@ header > nav:not(#options) a {
 .flex-container {
     width: 100%;
     display: flex;
-    border: 1px solid #28647c;
+    border: 1px solid #0a2d3a;
     border-radius: 4px;
     flex-direction: row;
     gap: 10px;
