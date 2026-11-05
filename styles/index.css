@@ -83,11 +83,7 @@ header > nav:not(#options) a {
     width: 100%;
 }
 
-#logo {
-    width: 140px;
-    height: auto;
-    margin: 20px 0;
-}
+
 
 .flex-container {
     width: 100%;
