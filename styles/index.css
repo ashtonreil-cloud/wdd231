@@ -55,7 +55,7 @@ h3 {
 
 h1:not(.hero) {
     background-color: rgb(170, 106, 116);
-    color: white;
+    color: rgb(61, 4, 38);
     padding: 16px;
     text-align: center;
 }
