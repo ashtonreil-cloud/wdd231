@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #5a98e3;
+    --primary-color: #0e2744;
     --secondary-color: #e287c7;
     --accent1-color: #28647c;
     --accent2-color: #097860;
@@ -62,7 +62,7 @@ h1:not(.hero) {
 
 
 header > nav:not(#options) {
-    background-color: steelblue;
+    background-color: rgb(1, 3, 5);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
