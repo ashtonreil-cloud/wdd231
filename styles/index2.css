@@ -14,6 +14,9 @@ main img {
 }
 
 
+@media only screen and (min-width: 32rem) {
+     span {font-size: 2rem};
+}
 .hero {
     
     background-repeat: no-repeat;

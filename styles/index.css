@@ -84,6 +84,7 @@ header > nav:not(#options) a {
 }
 
 
+span p {font-size: 1.5rem};
 
 .flex-container {
     width: 100%;
