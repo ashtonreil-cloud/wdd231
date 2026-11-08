@@ -1,0 +1,136 @@
+
+img {
+    border: none;
+    box-shadow: 0 0 30px gray;
+}
+
+main img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 1px solid rgb(133, 133, 195);
+    padding: 2px;
+    box-shadow: 0 0 30px #000000;
+}
+
+
+@media only screen and (min-width: 32rem) {
+     span {font-size: 2rem};
+}
+.hero {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hero article {
+    position: absolute;
+    right: 20px;
+}
+
+.hero article img {
+    width: 125px;
+    box-shadow: none;
+}
+
+.hero h1,
+h1.hero {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 15px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(226, 135, 199, 0.85); /* Alpha channel layer bypasses mud opacity text bug */
+    color: #061c0f;
+}
+
+h2 {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: #FFFD91;
+    color: var(--accent2-color);
+    margin: 10px 0;
+}
+
+.happyrafter {
+    height: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+#articulo {
+    margin: 20px auto;
+    background-color: var(--bg-light);
+    height: auto;
+    min-height: 120px;
+    padding: 15px;
+    width: 90%;
+}
+
+#articulo img {
+    height: 90px;
+    width: auto;
+}
+
+aside {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.5em;
+    background-color: pink;
+    color: #000000;
+    text-align: center;
+}
+
+aside h2 {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+}
+
+aside img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex-country {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .flex-country {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
