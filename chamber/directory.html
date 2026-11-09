@@ -2,42 +2,37 @@
 <html lang="en-US">
 
 <head>
-    <meta property="og:url" content="https://github.io" />  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Chamber of Commerce</title>
-    <meta name="description" content="A chamber of commerce is a local organization of businesses that work together to strengthen the business interests of the group. The intent of a chamber of commerce is to foster networking and to advocate on the behalf of the community.">
+    <title>Chamber of Commerce - Directory</title>
+    <meta name="description" content="A chamber of commerce directory page listing local business members.">
     <meta name="author" content="Ashton Faith Reil">
-    <meta property="og:title" content="Home page for WDD231">
-    <meta property="og:description" content="Assignment portal and introduction page for Ashton Faith Reil.">
-    <meta property="og:image" content="https://1000logos.net">
+  
+    <meta property="og:title" content="Directory - WDD231">
+    <meta property="og:description" content="Business directory for Ashton Faith Reil's Chamber project.">
+    <meta property="og:image" content="https://github.io">
+    <meta property="og:url" content="https://github.io"> 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="https://x.com">
-    <meta property="og:image" content="https://github.io" />
-   
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="chamber/styles/base.css">
-    <link rel="stylesheet" href="chamber/styles/larger.css">
     
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css"> 
     
-    
-    <script src="chamber/scripts/index.js" defer></script>
-    <script src="chamber/scripts/getdates.js"    defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
 
-
     <header>
         <nav id="options">
             <div class="flex-container">
-               
                 <ul class="link-box">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="finalproject.html">Final Project</a></li>
                 </ul>
@@ -46,11 +41,16 @@
     </header>
 
     <main>
-    <div id="cards" class="grid"></div>
+        <h1>Directory</h1>
+        
+        <div class="views">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+
+        <div id="cards" class="grid"></div>
     </main>
-    <script src="chamber/scripts/directory.json" defer></script>
-           
-   
+
     <footer>
         <p>©2026 🌺 Ashton Faith Reil 🌺 California, USA</p>
     </footer>
