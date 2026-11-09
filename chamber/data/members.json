@@ -1,0 +1,78 @@
+[{
+    "companyName": "Walmart",
+    "companyAddress": "Walmart is headquartered at 702 SW 8th Street (or 1 Customer Drive) in Bentonville, Arkansas",
+    "companyPhone": " 1-800-925-6278",
+    "companyWebsiteUrl": "https://www.walmart.com/",
+    "companyLogoUrl": "https://1000marcas.net/walmart-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores primarily in the United States."
+  }
+]
+
+
+[{
+    "companyName": "Starbucks",
+    "companyAddress": "Starbucks is headquartered at 2401 Colorado Ave, Seattle, WA 98105",
+    "companyPhone": "1-800-782-7282",
+    "companyWebsiteUrl": "https://www.starbucks.com/",
+    "companyLogoUrl": "https://1000marcas.net/starbucks-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Starbucks is a American multinational chain of coffeehouse franchises and roastery coffee provider."
+  }
+]
+
+[{  
+    "companyName": "Amazon",
+    "companyAddress": "Amazon is headquartered at 410 Terry Ave N, Seattle, WA 98109",
+    "companyPhone": "
+1-888-280-4331",
+    "companyWebsiteUrl": "https://www.amazon.com/",
+    "companyLogoUrl": "https://1000marcas.net/amazon-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Amazon is a multinational technology company that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence."
+  }
+]
+
+[{
+    "companyName": "Microsoft",
+    "companyAddress": "Microsoft is headquartered at 1 Microsoft Way, Redmond, WA 98052",
+    "companyPhone": "1-800-642-7676",
+    "companyWebsiteUrl": "https://www.microsoft.com/",
+    "companyLogoUrl": "https://1000marcas.net/microsoft-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Microsoft is a multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services."
+  }
+]
+
+[{
+    "companyName": "Google",
+    "companyAddress": "Google is headquartered at 1600 Amphitheatre Parkway, Mountain View, CA 94043",
+    "companyPhone": "1-866-246-6453",
+    "companyWebsiteUrl": "https://www.google.com/",
+    "companyLogoUrl": "https://1000marcas.net/google-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Google is a multinational technology company that specializes in Internet-related services and products."
+  }
+]
+
+[{
+    "companyName": "Apple",
+    "companyAddress": "Apple is headquartered at 1 Apple Park Way, Cupertino, CA 95014",
+    "companyPhone": "800-380-230",
+    "companyWebsiteUrl": "https://www.apple.com/",
+    "companyLogoUrl": "https://1000marcas.net/apple-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Apple is a multinational technology company that designs, manufactures, and markets consumer electronics, computer software, and online services."
+  }
+]
+
+[{
+    "companyName": "Facebook",
+    "companyAddress": "Facebook is headquartered at 1 Hacker Way, Menlo Park, CA 94025",
+    "companyPhone": "650-308-7300",
+    "companyWebsiteUrl": "https://www.facebook.com/",
+    "companyLogoUrl": "https://1000marcas.net/facebook-logo/",
+    "membershipLevel": "(1=member, 2=silver, 3=gold)",
+    "info": "Facebook is a social media and social networking service company that allows users to connect with friends and family, share content, and discover what's happening in the world."
+  }]
+
