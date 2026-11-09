@@ -1,5 +1,6 @@
+
 @media only screen and (min-width: 40rem) {
-   
+  
     .link-box {
         flex-direction: row;
         justify-content: space-evenly;
@@ -14,12 +15,10 @@
         border-right: 1px solid black;
     }
 
-   
     #cards.grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
-   
     .card-body {
         flex-direction: row;
         align-items: center;

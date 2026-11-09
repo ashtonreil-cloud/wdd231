@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0c7195;
-    --accent-color: #db7676;
+    --primary-color: #0a2d3a;
+    --accent-color: #4c115e;
     --card-bg: #ffffff;
     --card-border: #cccccc;
     --header-bg: #f4f4f4;
@@ -19,7 +19,7 @@ body {
     flex-direction: column; 
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #36032b;
     color: var(--text-color);
 }
 
@@ -93,7 +93,7 @@ header {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     cursor: pointer;
-    background-color: #e88de0;
+    background-color: #e0e0e0;
     border: 1px solid #aaa;
     border-radius: 4px;
 }
@@ -133,7 +133,7 @@ header {
 .card-header .tagline {
     font-style: italic;
     font-size: 0.9rem;
-    color: #470847;
+    color: #555;
 }
 
 .card-body {
@@ -165,7 +165,6 @@ header {
     word-break: break-all;
 }
 
-
 #cards.list {
     display: flex;
     flex-direction: column;
@@ -194,7 +193,8 @@ header {
 }
 
 #cards.list .card-body img {
-    display: none;}
+    display: none; 
+}
 
 footer {
     margin-top: auto;
