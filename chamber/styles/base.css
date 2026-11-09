@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0a2d3a;
+    --primary-color: #0c7195;
     --accent-color: #db7676;
     --card-bg: #ffffff;
     --card-border: #cccccc;
@@ -7,7 +7,7 @@
     --text-color: #333333;
 }
 
-/* Global Reset & Typography */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,7 +38,7 @@ main h1 {
     margin-bottom: 1rem;
 }
 
-/* Header & Navigation */
+
 header {
     width: 100%;
     padding: 1rem;
@@ -81,7 +81,7 @@ header {
     color: var(--accent-color);
 }
 
-/* View Buttons */
+
 .views {
     display: flex;
     gap: 0.5rem;
@@ -93,7 +93,7 @@ header {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     cursor: pointer;
-    background-color: #e0e0e0;
+    background-color: #e88de0;
     border: 1px solid #aaa;
     border-radius: 4px;
 }
@@ -103,7 +103,7 @@ header {
     color: #ffffff;
 }
 
-/* Container & Cards Default (Single Column Mobile) */
+
 #cards.grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -133,7 +133,7 @@ header {
 .card-header .tagline {
     font-style: italic;
     font-size: 0.9rem;
-    color: #555;
+    color: #470847;
 }
 
 .card-body {
@@ -165,7 +165,7 @@ header {
     word-break: break-all;
 }
 
-/* List View Override */
+
 #cards.list {
     display: flex;
     flex-direction: column;
@@ -194,10 +194,8 @@ header {
 }
 
 #cards.list .card-body img {
-    display: none; /* Hides logos in compact list view */
-}
+    display: none;}
 
-/* Footer */
 footer {
     margin-top: auto;
     border-top: 1px solid #000;

@@ -1,5 +1,5 @@
 @media only screen and (min-width: 40rem) {
-    /* Navigation Bar Horizontal Desktop Layout */
+   
     .link-box {
         flex-direction: row;
         justify-content: space-evenly;
@@ -14,12 +14,12 @@
         border-right: 1px solid black;
     }
 
-    /* Grid Layout: 3 Columns like the desktop wireframe */
+   
     #cards.grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
-    /* Side-by-side Image & Info inside Cards */
+   
     .card-body {
         flex-direction: row;
         align-items: center;
