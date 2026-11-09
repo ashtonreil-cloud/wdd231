@@ -1,7 +1,7 @@
 
+
+console.log("Script loaded!");
 const url = "data/members.json";
-
-
 const cardsContainer = document.querySelector("#cards");
 
 
