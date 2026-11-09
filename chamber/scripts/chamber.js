@@ -1,4 +1,4 @@
-const url = "data/members.json";
+const url = "data/members.json"; // Relative path to chamber/data/members.json
 const cardsContainer = document.querySelector("#cards");
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
@@ -54,15 +54,11 @@ if (gridButton && listButton) {
   gridButton.addEventListener("click", () => {
     cardsContainer.classList.add("grid");
     cardsContainer.classList.remove("list");
-    gridButton.classList.add("active");
-    listButton.classList.remove("active");
   });
 
   listButton.addEventListener("click", () => {
     cardsContainer.classList.add("list");
     cardsContainer.classList.remove("grid");
-    listButton.classList.add("active");
-    gridButton.classList.remove("active");
   });
 }
 
