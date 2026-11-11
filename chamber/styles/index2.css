@@ -15,7 +15,7 @@ main img {
 
 
 @media only screen and (min-width: 32rem) {
-     span {font-size: 2rem};
+     span {font-size: 2rem} <link rel="icon" href="/path/favicon.ico"
 }
 .hero {
     
